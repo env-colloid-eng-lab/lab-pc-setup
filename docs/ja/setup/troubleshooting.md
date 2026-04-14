@@ -52,16 +52,35 @@ python --version
 ## WSL がインターネットに接続できない
 
 **解決方法：**
+まず、一時的な対処として DNS 設定を更新します。WSL では `/etc/resolv.conf` が起動時に自動生成されることが多く、この変更は次回起動で上書きされる場合があります。
+
 ```bash
-# WSL の DNS 設定をリセット
+# WSL の DNS 設定を一時的に更新
 echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf
 ```
 
-問題が続く場合は WSL を再起動します：
+問題が続く場合や再発する場合は、`/etc/wsl.conf` で `resolv.conf` の自動生成を無効化してから設定してください：
+
+```bash
+sudo tee /etc/wsl.conf >/dev/null <<'EOF'
+[network]
+generateResolvConf = false
+EOF
+```
+
+その後、WSL を再起動します：
 ```powershell
 wsl --shutdown
 ```
-その後、Ubuntu ターミナルを再度開いてください。
+
+Ubuntu ターミナルを再度開いたあと、必要に応じて `resolv.conf` を作成し直してください：
+
+```bash
+sudo rm -f /etc/resolv.conf
+echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf
+```
+
+その後、接続が回復したか確認してください。
 
 ---
 
