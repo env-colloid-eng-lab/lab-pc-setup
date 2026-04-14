@@ -1,6 +1,6 @@
-# Lab Environment Handbook — English
+# Lab PC Environment Setup Handbook — English
 
-Welcome to the Lab Environment Handbook. This guide helps new lab members and course participants set up their coding environment step by step.
+Welcome to the Lab PC Environment Setup Handbook. This guide helps new lab members and course participants set up their coding environment step by step.
 
 ## Getting Started
 
