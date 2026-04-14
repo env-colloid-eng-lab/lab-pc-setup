@@ -51,17 +51,27 @@ python --version
 
 ## WSL cannot connect to the internet
 
-**Fix:**
-```bash
-# Reset DNS settings in WSL
-echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf
+**Fix:** On WSL, `/etc/resolv.conf` is often auto-generated at startup, so editing it directly may only be temporary.
+
+To make the DNS change persist, disable auto-generation first:
+
+```ini
+[network]
+generateResolvConf = false
 ```
 
-If the problem persists, restart WSL:
+Save that in `/etc/wsl.conf`, then restart WSL from PowerShell:
+
 ```powershell
 wsl --shutdown
 ```
-Then reopen the Ubuntu terminal.
+
+Reopen the Ubuntu terminal and recreate `/etc/resolv.conf` with your preferred DNS server:
+
+```bash
+sudo rm -f /etc/resolv.conf
+echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf
+```
 
 ---
 
