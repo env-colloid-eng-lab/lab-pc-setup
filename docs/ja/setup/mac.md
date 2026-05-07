@@ -40,7 +40,7 @@ git --version
 
 ## 4. 次のステップ
 
-- [Miniconda](miniconda.md) で Python 環境を管理する
+- [Miniforge](miniforge.md) で Python 環境を管理する
 - [VS Code と Python](vscode-python.md) をインストールする
 - [Git と GitHub](git-github.md) を設定する
 

@@ -43,7 +43,7 @@ VS Code が起動し、WSL 環境に自動的に接続されます。
 
 ## 6. 次のステップ
 
-- WSL 内に [Miniconda](miniconda.md) をインストールする
+- WSL 内に [Miniforge](miniforge.md) をインストールする
 - [Git と GitHub](git-github.md) を設定する
 
 ---

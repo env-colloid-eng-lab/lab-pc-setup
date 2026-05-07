@@ -20,21 +20,22 @@ Follow the installer for your operating system (Windows, macOS, or Linux).
 
 1. Open the Command Palette (Ctrl+Shift+P / Cmd+Shift+P).
 2. Type `Python: Select Interpreter`.
-3. Choose the Python interpreter from your Miniconda environment (if set up).
+3. Choose the Python interpreter from your Miniforge environment (if set up).
 
-> See [Miniconda setup](miniconda.md) if you have not set up Miniconda yet.
+> See [Miniforge setup](miniforge.md) if you have not set up Miniforge yet.
 
 ## 4. Verify Your Setup
 
-Check the selected interpreter in the VS Code status bar. It should show the Python interpreter from your Miniconda environment.
+Check the selected interpreter in the VS Code status bar. It should show the Python interpreter from your Miniforge environment.
 
-If you want to verify it in the integrated terminal, first activate the same Miniconda environment, then run:
+If you want to verify it in the integrated terminal, first activate the same Miniforge environment, then run:
 
 ```bash
+conda activate <environment-name>
 python --version
 ```
 
-After activating the environment, you should see a version number like `Python 3.11.x`.
+After activating the environment, you should see a version number like `Python 3.11.x`. Replace `<environment-name>` with the Miniforge environment you selected.
 
 ## 5. Useful Extensions (Optional)
 

@@ -20,13 +20,13 @@
 
 1. コマンドパレットを開きます（Ctrl+Shift+P / Cmd+Shift+P）。
 2. `Python: Select Interpreter` と入力します。
-3. Miniconda 環境の Python インタープリターを選択します（設定済みの場合）。
+3. Miniforge 環境の Python インタープリターを選択します（設定済みの場合）。
 
-> Miniconda をまだセットアップしていない場合は、先に [Miniconda のセットアップ](miniconda.md) を行ってください。
+> Miniforge をまだセットアップしていない場合は、先に [Miniforge のセットアップ](miniforge.md) を行ってください。
 
 ## 4. セットアップの確認
 
-まず、VS Code の右下のステータスバーに表示される Python インタープリター名を確認してください。ここに、選択した Miniconda 環境の Python が表示されていれば、VS Code 上ではそのインタープリターが使われます。
+まず、VS Code の右下のステータスバーに表示される Python インタープリター名を確認してください。ここに、選択した Miniforge 環境の Python が表示されていれば、VS Code 上ではそのインタープリターが使われます。
 
 > `Python: Select Interpreter` でインタープリターを選択しても、統合ターミナル上の `python` コマンドが自動でその環境を指すとは限りません。
 
@@ -37,7 +37,7 @@ conda activate <環境名>
 python --version
 ```
 
-`Python 3.11.x` のようなバージョン番号が表示されれば成功です。`<環境名>` には、選択した Miniconda 環境名を指定してください。
+`Python 3.11.x` のようなバージョン番号が表示されれば成功です。`<環境名>` には、選択した Miniforge 環境名を指定してください。
 
 ## 5. 便利な拡張機能（任意）
 

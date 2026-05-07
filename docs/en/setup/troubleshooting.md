@@ -6,7 +6,7 @@ This page lists common issues and their solutions. If your issue is not listed h
 
 ## conda: command not found
 
-**Cause:** Miniconda was installed but the shell was not restarted, or conda was not initialized.
+**Cause:** Miniforge was installed but the shell was not restarted, or conda was not initialized.
 
 **Fix:**
 
@@ -15,7 +15,7 @@ source ~/.bashrc   # Linux / WSL
 source ~/.zshrc    # macOS (zsh)
 ```
 
-If that does not work, re-run the Miniconda installer and answer `yes` to the initialization prompt.
+If that does not work, re-run the Miniforge installer and answer `yes` to the initialization prompt.
 
 ---
 
@@ -37,7 +37,7 @@ python --version
 **Fix:**
 1. Open the Command Palette (Ctrl+Shift+P / Cmd+Shift+P).
 2. Type `Python: Select Interpreter`.
-3. Choose the correct Python path (usually under `~/miniconda3/envs/...`).
+3. Choose the correct Python path (usually under `~/miniforge3/envs/...`).
 
 ---
 
