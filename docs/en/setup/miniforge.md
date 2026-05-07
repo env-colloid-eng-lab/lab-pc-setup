@@ -76,13 +76,15 @@ For normal lab work on Windows, use **Miniforge Prompt** when running conda or m
 2. Download the correct installer for your Mac:
 
 ```bash
-curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+ARCH="$(uname -m)"
+INSTALLER_FILE="Miniforge3-MacOSX-${ARCH}.sh"
+curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/${INSTALLER_FILE}"
 ```
 
 3. Run the installer:
 
 ```bash
-bash Miniforge3-$(uname)-$(uname -m).sh
+bash "${INSTALLER_FILE}"
 ```
 
 4. Follow the prompts. When asked whether to initialize conda, answer `yes`.
