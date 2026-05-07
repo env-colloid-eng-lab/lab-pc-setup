@@ -41,7 +41,7 @@ conda init --reverse --dry-run
 conda init --reverse
 
 CONDA_BASE_ENVIRONMENT="$(conda info --base)"
-echo "The next command will remove: ${CONDA_BASE_ENVIRONMENT}"
+echo "次のコマンドで削除される場所: ${CONDA_BASE_ENVIRONMENT}"
 rm -rf "${CONDA_BASE_ENVIRONMENT}"
 
 rm -f "${HOME}/.condarc"
