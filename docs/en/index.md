@@ -16,7 +16,7 @@ Welcome to the Lab PC Environment Setup Handbook. This guide helps new lab membe
 | [VS Code & Python](setup/vscode-python.md) | Install VS Code and configure Python |
 | [Windows / WSL](setup/windows-wsl.md) | Windows Subsystem for Linux setup |
 | [macOS](setup/mac.md) | macOS-specific setup steps |
-| [Miniconda](setup/miniconda.md) | Python environment management with Miniconda |
+| [Miniforge](setup/miniforge.md) | Python environment management with Miniforge |
 | [Git & GitHub](setup/git-github.md) | Version control basics |
 | [GitHub Copilot (Student)](setup/copilot-student.md) | Enable AI coding assistance |
 | [Troubleshooting](setup/troubleshooting.md) | Common issues and fixes |

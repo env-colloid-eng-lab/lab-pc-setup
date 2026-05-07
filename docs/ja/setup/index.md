@@ -5,7 +5,7 @@
 ## 推奨セットアップ順序
 
 1. **OS に合ったガイドを選ぶ** — [Windows / WSL](windows-wsl.md) または [macOS](mac.md)
-2. **Miniconda をインストールする** — [Miniconda](miniconda.md)
+2. **Miniforge をインストールする** — [Miniforge](miniforge.md)
 3. **VS Code と Python 拡張機能をインストールする** — [VS Code と Python](vscode-python.md)
 4. **Git と GitHub を設定する** — [Git と GitHub](git-github.md)
 5. **GitHub Copilot を有効にする** — [GitHub Copilot（学生向け）](copilot-student.md)

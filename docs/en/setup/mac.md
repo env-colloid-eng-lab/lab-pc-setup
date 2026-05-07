@@ -40,7 +40,7 @@ git --version
 
 ## 4. Next Steps
 
-- Install [Miniconda](miniconda.md) for Python environment management
+- Install [Miniforge](miniforge.md) for Python environment management
 - Install [VS Code & Python](vscode-python.md)
 - Set up [Git & GitHub](git-github.md)
 

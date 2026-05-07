@@ -19,6 +19,8 @@
 - JA セットアップ概要: [docs/ja/setup/index.md](docs/ja/setup/index.md)
 - EN VS Code & Python: [docs/en/setup/vscode-python.md](docs/en/setup/vscode-python.md)
 - JA VS Code と Python: [docs/ja/setup/vscode-python.md](docs/ja/setup/vscode-python.md)
+- EN Miniforge: [docs/en/setup/miniforge.md](docs/en/setup/miniforge.md)
+- JA Miniforge: [docs/ja/setup/miniforge.md](docs/ja/setup/miniforge.md)
 - EN Git & GitHub: [docs/en/setup/git-github.md](docs/en/setup/git-github.md)
 - JA Git と GitHub: [docs/ja/setup/git-github.md](docs/ja/setup/git-github.md)
 - EN Troubleshooting: [docs/en/setup/troubleshooting.md](docs/en/setup/troubleshooting.md)

@@ -6,7 +6,7 @@
 
 ## conda: command not found
 
-**原因：** Miniconda はインストールされているが、ターミナルを再起動していないか、conda が初期化されていない。
+**原因：** Miniforge はインストールされているが、ターミナルを再起動していないか、conda が初期化されていない。
 
 **解決方法：**
 
@@ -15,7 +15,7 @@ source ~/.bashrc   # Linux / WSL
 source ~/.zshrc    # macOS（zsh）
 ```
 
-それでも解決しない場合は、Miniconda インストーラーを再実行し、初期化のプロンプトに `yes` と答えてください。
+それでも解決しない場合は、Miniforge インストーラーを再実行し、初期化のプロンプトに `yes` と答えてください。
 
 ---
 
@@ -37,7 +37,7 @@ python --version
 **解決方法：**
 1. コマンドパレットを開きます（Ctrl+Shift+P / Cmd+Shift+P）。
 2. `Python: Select Interpreter` と入力します。
-3. 正しい Python パスを選択します（通常 `~/miniconda3/envs/...` の下にあります）。
+3. 正しい Python パスを選択します（通常 `~/miniforge3/envs/...` の下にあります）。
 
 ---
 

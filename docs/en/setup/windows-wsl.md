@@ -43,7 +43,7 @@ VS Code will launch and connect to the WSL environment automatically.
 
 ## 6. Next Steps
 
-- Install [Miniconda](miniconda.md) inside WSL
+- Install [Miniforge](miniforge.md) inside WSL
 - Set up [Git & GitHub](git-github.md)
 
 ---
