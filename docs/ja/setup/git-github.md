@@ -86,11 +86,11 @@ git config --global user.email "your_email@example.com"
 
 ### 方法 A：HTTPS
 
-GitHub に表示される HTTPS URL を使います：
+GitHub に表示される HTTPS URL を使います。
+初回の `clone` / `pull` / `push` 時に、ブラウザでのサインインや、GitHub のユーザー名と Personal Access Token（PAT）の入力を求められることがあります。
+Windows ネイティブでは Git Credential Manager により、認証情報が保存されることが多いです。
 
-```bash
-git clone https://github.com/<ユーザー名>/<リポジトリ名>.git
-```
+クローン用の具体的なコマンドは、後半の「クローン」手順にまとめています。
 
 ### 方法 B：GitHub CLI
 
