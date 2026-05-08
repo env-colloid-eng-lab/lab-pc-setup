@@ -19,7 +19,7 @@ Open an Ubuntu terminal and run:
 
 ```bash
 sudo apt update
-sudo apt install git
+sudo apt install -y git
 git --version
 ```
 
