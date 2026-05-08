@@ -22,7 +22,7 @@ Ubuntu ターミナルで以下を実行します：
 
 ```bash
 sudo apt update
-sudo apt install git
+sudo apt install -y git
 git --version
 ```
 
