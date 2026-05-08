@@ -78,8 +78,8 @@ Use your institutional or personal email address.
 For beginners, use **HTTPS** first.
 
 - **Windows native**: Git for Windows includes Git Credential Manager. When you push or clone over HTTPS, sign in with the browser window that opens.
-- **Windows with WSL / Ubuntu**: HTTPS also works. If you need smoother authentication later, use the GitHub CLI or SSH.
-- **macOS / Linux**: HTTPS works. GitHub CLI or SSH are also common choices.
+- **Windows with WSL / Ubuntu**: HTTPS also works, but on `git push` you may be prompted to authenticate. GitHub does **not** accept your account password for Git over HTTPS; use `gh auth login`, a credential helper, or a personal access token (PAT) if prompted.
+- **macOS / Linux**: HTTPS works, but on `git push` you may be prompted to authenticate. GitHub does **not** accept your account password for Git over HTTPS; use `gh auth login`, a credential helper, or a personal access token (PAT) if prompted. SSH is also a common choice.
 
 See also: [GitHub Docs](https://docs.github.com/)
 
